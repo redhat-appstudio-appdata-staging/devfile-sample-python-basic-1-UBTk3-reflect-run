@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-mjcq
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/beaumorley-tenant/devfile-sample-python-basic-1/devfile-sample-python-basic-mjcq@sha256:f04f1b5eee4f424b9b0e5c18aaf03f6e3c7f1b86b9a9ad6d666a100e7903e3fa
         imagePullPolicy: Always
         name: container-image
         ports:
